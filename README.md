@@ -13,5 +13,7 @@ ___
 
 ## License
 **1. No Commercial Use**
+
 **2. Must Reference Source**
+
 **3. Any Unfriendly Purpose Is Prohibited**
