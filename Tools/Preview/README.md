@@ -1,7 +1,8 @@
 
 # Preview Generator
 
-*A small **[Deno]** tool to generate a preview of this repository's emojis.*
+*A **[Deno]** tool to generate previews* <br>
+*from this repository's emoticons.*
 
 <br>
 
@@ -14,7 +15,7 @@
 
 ## Requirements
 
-To run this tool you simply have to install **[Deno]**.
+To run this tool you just need **[Deno]**.
 
 <br>
 <br>
@@ -37,6 +38,8 @@ To run this tool you simply have to install **[Deno]**.
 ```Shell
 Tools/Preview/.js
 ```
+
+<br>
 
 *You may have to make it executable.*
 
