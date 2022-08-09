@@ -14,6 +14,9 @@
 *Liplum's Emoji Collection*
 
 <br>
+
+![Preview]
+
 <br>
 
 <kbd>  <br>  **Plumy! AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA**  <br>  </kbd>
@@ -26,6 +29,9 @@
 ## Copyright
 
 **1. Liplum reserves all rights**
+
+<br>
+<br>
 
 ## License
 
@@ -40,6 +46,8 @@
 <!----------------------------------------------------------------------------->
 
 [Discord]: https://discord.gg/PDwyxM3waw
+
+[Preview]: Resources/Preview.png
 [Logo]: emoji/laugh.png
 
 
