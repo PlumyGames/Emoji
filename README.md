@@ -7,12 +7,16 @@
 
 <br>
 
-![Logo]
-
 # Emoji
 
 *Liplum's Emoji Collection*
 
+<br>
+<br>
+
+[![Button Generator]][Generator]
+
+<br>
 <br>
 
 ![Preview]
@@ -47,10 +51,15 @@
 
 [Discord]: https://discord.gg/PDwyxM3waw
 
+[Generator]: Tools/Preview
 [Preview]: Resources/Preview.png
-[Logo]: emoji/laugh.png
 
 
 <!---------------------------------[ Badges ]---------------------------------->
 
 [Badge Discord]: https://img.shields.io/discord/937228972041842718?color=454fc1&label=Discord&logo=Discord&style=for-the-badge&logoColor=white&labelColor=5865F2
+
+
+<!---------------------------------[ Buttons ]--------------------------------->
+
+[Button Generator]: https://img.shields.io/badge/Preview_Generator-31A8FF?style=for-the-badge&logoColor=white&logo=Deno

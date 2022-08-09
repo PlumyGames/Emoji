@@ -15,7 +15,7 @@
 
 ## Requirements
 
-To run this tool you just need **[Deno]**.
+*To run this tool you just need **[Deno]**.*
 
 <br>
 <br>
