@@ -60,14 +60,14 @@ sudo chmod +x Tools/Preview/.js
 
 2.  Calculates required height for the preview.
 
-    ```
-    Rows = ⌈ EmojiCount ÷ 9 ⌉
-    ```
+    <br>
+
+    $$  Rows = \lceil EmojiCount \div 9 \rceil  $$
     
-    ```
-    Height = Rows * 57 + ( Rows - 1 ) * 9
-    ```
+    <br>
     
+    $$  Height = Rows * 57 + ( Rows - 1 ) * 9  $$
+
     <br>
     
 3.  For every path:
