@@ -2,3 +2,5 @@
 .idea
 *.g.png
 *.config.json
+
+__pycache__

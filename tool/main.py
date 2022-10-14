@@ -5,7 +5,10 @@ import shell
 
 def main():
     args = sys.argv
-    if len(args) > 1:
+    arglen = len(args)
+    if arglen == 1:
+        print(shell.default_config())
+    elif arglen > 1:
         config_path = args[1]
         shell.start(config_path)
 

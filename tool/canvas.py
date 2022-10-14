@@ -66,7 +66,7 @@ class Canvas:
     def max_row(self) -> int:
         return len(self.rows)
 
-    def view(self, is_horizontal: bool = True) -> ndarray:
+    def view(self, rotated: bool = False) -> ndarray:
         self.clean_empty()
         max_row = self.max_row
         max_colmun = self.max_colmun
@@ -76,12 +76,12 @@ class Canvas:
             for y in range(max_row):
                 e = utils.get_2d(self.rows, y, x, fallback=None)
                 res[y, x] = e
-        if is_horizontal:
+        if rotated:
             res = np.transpose(res)
         return res
 
-    def output(self, *, is_horizontal: bool = True, mode="RGBA") -> Img:
-        view = self.view(is_horizontal)
+    def output(self, *, rotated: bool = False, mode="RGBA") -> Img:
+        view = self.view(rotated)
         row, column = view.shape
         ux, uy = self.unit
         size = (row * ux, column * uy)
