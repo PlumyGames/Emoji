@@ -1,0 +1,4 @@
+.vscode
+.idea
+*.g.png
+*.config.json
