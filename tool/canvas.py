@@ -40,6 +40,13 @@ class Canvas:
         else:
             return self.rows[self.rowi]
 
+    def clean_empty(self):
+        size = len(self.rows)
+        if size > 0:
+            last = self.rows[size - 1]
+            if len(last) == 0:
+                self.rows.pop()
+
     @property
     def rowi(self) -> int:
         return self._rowi
@@ -60,6 +67,7 @@ class Canvas:
         return len(self.rows)
 
     def view(self, is_horizontal: bool = True) -> ndarray:
+        self.clean_empty()
         max_row = self.max_row
         max_colmun = self.max_colmun
         size = (max_row, max_colmun)

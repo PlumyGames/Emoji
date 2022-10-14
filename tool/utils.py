@@ -12,3 +12,8 @@ def get_2d(arr: list[list[T]], x: int, y: int, *, fallback=None) -> T | None:
             return fallback
     else:
         return fallback
+
+
+def read_fi(path) -> str:
+    with open(path, mode="r", encoding="UTF-8") as f:
+        return f.read()
